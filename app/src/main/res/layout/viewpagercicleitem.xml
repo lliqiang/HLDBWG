@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+<TextView
+    android:id="@+id/fileName_viewpager"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:textSize="20sp"
+    android:text="@string/itemtile"/>
+    <TextView
+        android:id="@+id/year_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="@string/dynasty"/>
+    <TextView
+        android:id="@+id/size_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="@string/size"/>
+
+    <TextView
+        android:id="@+id/producer_viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_marginTop="3dp"
+        android:text="@string/producer"/>
+
+    <ImageView
+        android:id="@+id/image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/welcome"
+       android:scaleType="fitXY"
+        />
+</LinearLayout>

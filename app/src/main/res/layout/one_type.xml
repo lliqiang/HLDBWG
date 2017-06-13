@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+<Button
+    android:id="@+id/recomand_btn_guide"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:background="@drawable/recommand"
+    android:text="@string/recommand"/>
+    <ImageView
+        android:id="@+id/pot_guide"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pot"
+        android:layout_below="@id/recomand_btn_guide"/>
+    <TextView
+        android:id="@+id/pot_road"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/pot_guide"
+        android:background="@drawable/pot_kuang"
+        android:layout_marginTop="55dp"
+        android:text="@string/cipingwan"/>
+</RelativeLayout>

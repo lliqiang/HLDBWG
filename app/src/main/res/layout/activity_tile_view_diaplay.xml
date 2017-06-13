@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tile_view_diaplay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.calabashiland.View.TileViewDiaplay">
+    <!--<com.qozix.tileview.TileView-->
+    <!--android:id="@+id/titleview"-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/container_tileview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></RelativeLayout>
+        <HorizontalScrollView
+            android:id="@+id/hosizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+            android:fadeScrollbars="true"
+            android:visibility="gone"
+            >
+            <LinearLayout
+                android:id="@+id/ll_all"
+                android:background="#fff"
+                android:layout_marginTop="28dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="horizontal"
+
+                ></LinearLayout>
+
+        </HorizontalScrollView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/toback_TileViewDisplay"
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@null"
+                android:src="@mipmap/toback" />
+
+            <TextView
+                android:id="@+id/text_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableRight="@mipmap/bottomswap"
+                android:text="F1"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+            <!--<Spinner-->
+            <!--android:id="@+id/spinner_TileDisplay"-->
+            <!--android:layout_width="80dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:dropDownWidth="60dp"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:clipToPadding="true"-->
+            <!--android:layout_alignWithParentIfMissing="true"-->
+            <!--android:layoutMode="opticalBounds"-->
+            <!--&gt;</Spinner>-->
+
+            <TextView
+                android:id="@+id/routineLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/chooseroute"
+                android:textColor="#000"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_f1"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/pinnerselector"
+            android:gravity="center_horizontal"
+            android:text="F1"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_f3"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/pinnerselector"
+            android:gravity="center_horizontal"
+            android:text="F3"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/bt_f2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="85dp"
+            android:background="@drawable/pinnerselector"
+            android:gravity="center_horizontal"
+            android:text="F2"
+            android:textColor="#fff"
+            android:textSize="25sp" />
+    </FrameLayout>
+</RelativeLayout>

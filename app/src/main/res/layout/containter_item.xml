@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="wrap_content"
+    android:src="@mipmap/pot"/>
+    <TextView
+        android:id="@+id/pot_road"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:textSize="15sp"
+        android:gravity="center"
+       android:layout_marginLeft="20dp"
+        android:background="@drawable/pot_kuang"
+        android:text="@string/cipingwan"/>
+</LinearLayout>

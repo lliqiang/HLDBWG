@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_play"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.calabashiland.View.Play">
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/welcome"
+        android:id="@+id/imageview_player"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <!--<WebView-->
+        <!--android:id="@+id/webview_player"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="600dp"-->
+        <!--android:layout_below="@id/imageview_player"></WebView>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imageview_player"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/Title_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:text="@string/qingtong"/>
+
+        <ImageView
+            android:id="@+id/location_player"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/location"/>
+        </LinearLayout>
+
+        <WebView
+            android:id="@+id/play_webview"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+           />
+    </LinearLayout>
+    <ImageButton
+        android:id="@+id/toback_play"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="15dp"
+
+        android:src="@mipmap/toback"/>
+
+    <include layout="@layout/controller"
+
+        />
+</RelativeLayout>

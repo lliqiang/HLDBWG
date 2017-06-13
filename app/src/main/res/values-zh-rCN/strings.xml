@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">葫芦岛</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">打开</string>
+    <string name="close">关闭</string>
+    <string name="_3f">岛前先民，事前时期 3F</string>
+    <string name="qingtong">青铜陵首剑</string>
+    <string name="guide">地图导览</string>
+    <string name="cancelroute">取消路线</string>
+    <string name="input">请输入展品编号或名称</string>
+    <string name="chooseroute">线路选择</string>
+    <string name="cipingwan">瓷瓶碗</string>
+    <string name="f1">葫芦岛博物馆F1</string>
+    <string name="tile">岛屿先民，史前时期</string>
+    <string name="intro">葫芦岛地区出土的文物为主，涉及陶器、方法安老师肯定就开了家附近的空间阿萨德发的撒刚收到阿嘎发放噶的风格。</string>
+    <string name="visit">参观</string>
+    <string name="downloading">正在下载</string>
+    <string name="canceldownloader">取消</string>
+    <string name="itemtile">牡丹花纹三彩盘</string>
+    <string name="dynasty">辽代</string>
+    <string name="size">高12厘米，宽34厘米，口径43厘米</string>
+    <string name="producer">辽宁省建昌市某某地出图</string>
+    <string name="itemtile1">黄白由高盛鸡冠壶</string>
+    <string name="itemtile2">黄冠由高身鸡冠壶</string>
+    <string name="recommand">推荐路线</string>
+    <string name="introduce">博物馆简介</string>
+    <string name="sypriciate">文物赏析</string>
+    <string name="transport">交通信息</string>
+    <string name="ticketinfo">票务信息</string>
+    <string name="startguide">开始导览</string>
+    <string name="noline">暂无此路线</string>
+    <string name="tilteone">岛城先民-史前时期</string>
+    <string name="tiletwo">辽金西京</string>
+    <string name="titlethree">魏都平城</string>
+    <string name="appreciate">文物赏析</string>
+    <string name="namell">葫芦岛博物馆</string>
+    <string name="cancelroute1">取消线路</string>
+</resources>

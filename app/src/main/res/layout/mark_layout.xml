@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<ImageView
+    android:id="@+id/tink_pic"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:src="@drawable/tink"/>
+    <TextView
+        android:id="@+id/tinktext_mark"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:text="@string/itemtile"
+        android:layout_alignLeft="@id/tink_pic"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/tink_backgroud"
+        android:layout_marginTop="6dp"/>
+</RelativeLayout>

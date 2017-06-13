@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_route_guide_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.lenovo.calabashiland.View.RouteGuideView">
+
+    <com.qozix.tileview.TileView
+        android:background="@mipmap/map"
+        android:id="@+id/titleview_guideroute"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></com.qozix.tileview.TileView>
+
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp"
+    android:fadeScrollbars="true"
+    >
+    <LinearLayout
+        android:id="@+id/ll_all"
+        android:background="#fff"
+        android:layout_marginTop="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+       ></LinearLayout>
+
+</HorizontalScrollView>
+
+    <ImageButton
+        android:id="@+id/toback_guide"
+        android:layout_width="52dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:src="@mipmap/toback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:text="@string/guide"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
